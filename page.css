@@ -1,0 +1,16 @@
+body {
+    background-color: palevioletred;
+}
+header {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(85, 13, 13);
+    background-color: rosybrown;
+}
+h2{
+    font-family: sans-serif;
+    color: rgb(85, 13, 13);
+}
+

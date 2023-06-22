@@ -2,11 +2,19 @@ body {
     margin: 0;
     font-family: sans-serif;
 }
+header {
+    font-family: sans-serif;
+    background-color: orange;
+    color: rgb(0, 27, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 h3 {
     margin: 0;
 }
 .container {
-    background-color: rgb(0, 27, 63);
+    background-color: rgb(1, 47, 107);
     min-height: 100vh;
     padding: 30px;
     box-sizing: border-box;
@@ -141,4 +149,13 @@ nav {
 }
 .control>i:hover {
     color: silver;
+}
+footer {
+    font-family: sans-serif;
+    background-color: orange;
+    color: rgb(0, 27, 63);
+    position: fixed; 
+    left: 0; 
+    bottom: 0px;
+    width: 100%;
 }

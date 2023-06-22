@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Информация о котике</title>
+    <link rel="stylesheet" href="page.css">
 </head>
 <body>
+    <header>
     <h1>Котик</h1>
+    </header>
     <div class="info"></div>
     <script>
         console.log(location);
@@ -31,7 +34,12 @@
                 }
             })
             .then(data => {
-                box.innerHTML = `<h2>${data.name}</h2>`
+                box.innerHTML = `<h2>Имя: ${data.name}</h2> 
+                    <img src=${data.image}>
+                    <h2>Возраст: ${data.age}</h2>
+                    <h2>Рейтинг: ${data.rate}</h2>
+                    <h2>Описание: ${data.description}</h2>
+                    <h2>Любимчик: ${data.favorite}</h2>`
             })
     </script>
 </body>
